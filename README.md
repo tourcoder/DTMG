@@ -16,7 +16,7 @@ Luckily the author made the code open source via MIT license, so I ported it to 
 
 - Build the extension with Xcode
 
-- Don't forget to set Safari to `allow unsigned extensions` under menu `Develop`.
+- Don't forget to set Safari to `Allow unsigned extensions` under menu `Develop`.
 
 Tips: I've submitted this extension to Apple, and its status is waiting for review, and I'll provide a link to it here once it's approved.
  
