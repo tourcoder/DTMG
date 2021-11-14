@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DBB806D273F78950060F24F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB806C273F78950060F24F /* AppDelegate.swift */; };
+		6DBB8071273F78950060F24F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB806F273F78950060F24F /* Main.html */; };
+		6DBB8073273F78950060F24F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB8072273F78950060F24F /* Icon.png */; };
+		6DBB8075273F78950060F24F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB8074273F78950060F24F /* Style.css */; };
+		6DBB8077273F78950060F24F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB8076273F78950060F24F /* Script.js */; };
+		6DBB8079273F78950060F24F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB8078273F78950060F24F /* ViewController.swift */; };
+		6DBB807C273F78950060F24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB807A273F78950060F24F /* Main.storyboard */; };
+		6DBB807E273F78970060F24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB807D273F78970060F24F /* Assets.xcassets */; };
+		6DBB8086273F78970060F24F /* DTMG Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6DBB8085273F78970060F24F /* DTMG Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6DBB808B273F78970060F24F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB808A273F78970060F24F /* SafariWebExtensionHandler.swift */; };
+		6DBB808E273F78980060F24F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB808D273F78980060F24F /* _locales */; };
+		6DBB8090273F78980060F24F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB808F273F78980060F24F /* images */; };
+		6DBB8092273F78980060F24F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB8091273F78980060F24F /* manifest.json */; };
+		6DBB8094273F78980060F24F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB8093273F78980060F24F /* background.js */; };
+		6DBB8096273F78980060F24F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB8095273F78980060F24F /* content.js */; };
+		6DBB8098273F78980060F24F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB8097273F78980060F24F /* popup.html */; };
+		6DBB809A273F78980060F24F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB8099273F78980060F24F /* popup.css */; };
+		6DBB809C273F78980060F24F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB809B273F78980060F24F /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DBB8087273F78970060F24F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBB8061273F78950060F24F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBB8084273F78970060F24F;
+			remoteInfo = "DTMG Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DBB80A4273F78980060F24F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6DBB8086273F78970060F24F /* DTMG Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6DBB8069273F78950060F24F /* DTMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBB806C273F78950060F24F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DBB8070273F78950060F24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		6DBB8072273F78950060F24F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6DBB8074273F78950060F24F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		6DBB8076273F78950060F24F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		6DBB8078273F78950060F24F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DBB807B273F78950060F24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DBB807D273F78970060F24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBB807F273F78970060F24F /* DTMG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DTMG.entitlements; sourceTree = "<group>"; };
+		6DBB8080273F78970060F24F /* DTMG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DTMG.entitlements; sourceTree = "<group>"; };
+		6DBB8085273F78970060F24F /* DTMG Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DTMG Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBB808A273F78970060F24F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		6DBB808D273F78980060F24F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		6DBB808F273F78980060F24F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		6DBB8091273F78980060F24F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		6DBB8093273F78980060F24F /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		6DBB8095273F78980060F24F /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		6DBB8097273F78980060F24F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		6DBB8099273F78980060F24F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		6DBB809B273F78980060F24F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		6DBB809D273F78980060F24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBB809E273F78980060F24F /* DTMG_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DTMG_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBB8066273F78950060F24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB8082273F78970060F24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DBB8060273F78950060F24F = {
+			isa = PBXGroup;
+			children = (
+				6DBB806B273F78950060F24F /* DTMG */,
+				6DBB8089273F78970060F24F /* DTMG Extension */,
+				6DBB806A273F78950060F24F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DBB806A273F78950060F24F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB8069273F78950060F24F /* DTMG.app */,
+				6DBB8085273F78970060F24F /* DTMG Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBB806B273F78950060F24F /* DTMG */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB806C273F78950060F24F /* AppDelegate.swift */,
+				6DBB8078273F78950060F24F /* ViewController.swift */,
+				6DBB807A273F78950060F24F /* Main.storyboard */,
+				6DBB807D273F78970060F24F /* Assets.xcassets */,
+				6DBB807F273F78970060F24F /* DTMG.entitlements */,
+				6DBB8080273F78970060F24F /* DTMG.entitlements */,
+				6DBB806E273F78950060F24F /* Resources */,
+			);
+			path = DTMG;
+			sourceTree = "<group>";
+		};
+		6DBB806E273F78950060F24F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB806F273F78950060F24F /* Main.html */,
+				6DBB8072273F78950060F24F /* Icon.png */,
+				6DBB8074273F78950060F24F /* Style.css */,
+				6DBB8076273F78950060F24F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DBB8089273F78970060F24F /* DTMG Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB808A273F78970060F24F /* SafariWebExtensionHandler.swift */,
+				6DBB809D273F78980060F24F /* Info.plist */,
+				6DBB809E273F78980060F24F /* DTMG_Extension.entitlements */,
+				6DBB808C273F78980060F24F /* Resources */,
+			);
+			path = "DTMG Extension";
+			sourceTree = "<group>";
+		};
+		6DBB808C273F78980060F24F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB808D273F78980060F24F /* _locales */,
+				6DBB808F273F78980060F24F /* images */,
+				6DBB8091273F78980060F24F /* manifest.json */,
+				6DBB8093273F78980060F24F /* background.js */,
+				6DBB8095273F78980060F24F /* content.js */,
+				6DBB8097273F78980060F24F /* popup.html */,
+				6DBB8099273F78980060F24F /* popup.css */,
+				6DBB809B273F78980060F24F /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBB8068273F78950060F24F /* DTMG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBB80A5273F78980060F24F /* Build configuration list for PBXNativeTarget "DTMG" */;
+			buildPhases = (
+				6DBB8065273F78950060F24F /* Sources */,
+				6DBB8066273F78950060F24F /* Frameworks */,
+				6DBB8067273F78950060F24F /* Resources */,
+				6DBB80A4273F78980060F24F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBB8088273F78970060F24F /* PBXTargetDependency */,
+			);
+			name = DTMG;
+			productName = DTMG;
+			productReference = 6DBB8069273F78950060F24F /* DTMG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DBB8084273F78970060F24F /* DTMG Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBB80A1273F78980060F24F /* Build configuration list for PBXNativeTarget "DTMG Extension" */;
+			buildPhases = (
+				6DBB8081273F78970060F24F /* Sources */,
+				6DBB8082273F78970060F24F /* Frameworks */,
+				6DBB8083273F78970060F24F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DTMG Extension";
+			productName = "DTMG Extension";
+			productReference = 6DBB8085273F78970060F24F /* DTMG Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBB8061273F78950060F24F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6DBB8068273F78950060F24F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6DBB8084273F78970060F24F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DBB8064273F78950060F24F /* Build configuration list for PBXProject "DTMG" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DBB8060273F78950060F24F;
+			productRefGroup = 6DBB806A273F78950060F24F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBB8068273F78950060F24F /* DTMG */,
+				6DBB8084273F78970060F24F /* DTMG Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBB8067273F78950060F24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB8073273F78950060F24F /* Icon.png in Resources */,
+				6DBB807C273F78950060F24F /* Main.storyboard in Resources */,
+				6DBB8077273F78950060F24F /* Script.js in Resources */,
+				6DBB8071273F78950060F24F /* Main.html in Resources */,
+				6DBB807E273F78970060F24F /* Assets.xcassets in Resources */,
+				6DBB8075273F78950060F24F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB8083273F78970060F24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB8094273F78980060F24F /* background.js in Resources */,
+				6DBB809A273F78980060F24F /* popup.css in Resources */,
+				6DBB8098273F78980060F24F /* popup.html in Resources */,
+				6DBB8090273F78980060F24F /* images in Resources */,
+				6DBB8092273F78980060F24F /* manifest.json in Resources */,
+				6DBB808E273F78980060F24F /* _locales in Resources */,
+				6DBB8096273F78980060F24F /* content.js in Resources */,
+				6DBB809C273F78980060F24F /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBB8065273F78950060F24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB8079273F78950060F24F /* ViewController.swift in Sources */,
+				6DBB806D273F78950060F24F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB8081273F78970060F24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB808B273F78970060F24F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DBB8088273F78970060F24F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBB8084273F78970060F24F /* DTMG Extension */;
+			targetProxy = 6DBB8087273F78970060F24F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DBB806F273F78950060F24F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBB8070273F78950060F24F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		6DBB807A273F78950060F24F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBB807B273F78950060F24F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DBB809F273F78980060F24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DBB80A0273F78980060F24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6DBB80A2273F78980060F24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DTMG Extension/DTMG_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DTMG Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Don't track me Google";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safari.extension.DTMG.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6DBB80A3273F78980060F24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DTMG Extension/DTMG_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DTMG Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Don't track me Google";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safari.extension.DTMG.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6DBB80A6273F78980060F24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DTMG/DTMG.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DTMG;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safari.extension.DTMG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6DBB80A7273F78980060F24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DTMG/DTMG.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DTMG;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = safari.extension.DTMG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBB8064273F78950060F24F /* Build configuration list for PBXProject "DTMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBB809F273F78980060F24F /* Debug */,
+				6DBB80A0273F78980060F24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBB80A1273F78980060F24F /* Build configuration list for PBXNativeTarget "DTMG Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBB80A2273F78980060F24F /* Debug */,
+				6DBB80A3273F78980060F24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBB80A5273F78980060F24F /* Build configuration list for PBXNativeTarget "DTMG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBB80A6273F78980060F24F /* Debug */,
+				6DBB80A7273F78980060F24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DBB8061273F78950060F24F /* Project object */;
+}

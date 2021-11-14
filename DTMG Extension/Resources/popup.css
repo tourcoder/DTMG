@@ -1,0 +1,38 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    width: 300px;
+    padding: 10px;
+
+    font-family: system-ui;
+    text-align: center;
+    font-size: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.version {
+    margin-top: -15px;
+}
+
+.slogan {
+    font-size: 14px;
+}
+
+.support {
+    color: #ccc;
+}
+
+.support a {
+    font-size: 10px;
+    color: #58a6ff;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}
