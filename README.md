@@ -12,14 +12,16 @@ Luckily the author made the code open source via MIT license, so I ported it to 
 
 ### How to use
 
+You can download it from AppStore, [https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12](https://apps.apple.com/us/app/dtmg-target-links/id1595441111?mt=12)
+
+Or you can build with Xcode
+
 - Download the code from this repo
 
 - Build the extension with Xcode
 
 - Don't forget to set Safari to `Allow unsigned extensions` under menu `Develop`.
 
-Tips: I've submitted this extension to Apple, and its status is waiting for review, and I'll provide a link to it here once it's approved.
- 
 ### Thanks
 
 **[Rob Wu](https://github.com/Rob--W)** author of [Don't track me Google](https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/).
