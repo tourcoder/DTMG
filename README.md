@@ -22,6 +22,10 @@ Or you can build with Xcode
 
 - Don't forget to set Safari to `Allow Unsigned Extensions` under menu `Develop`.
 
+### How to Collaborate
+
+Please feel free to submit your PR or issue.
+
 ### Thanks
 
 **[Rob Wu](https://github.com/Rob--W)** maker of [Don't track me Google](https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/).
