@@ -15,7 +15,7 @@
 		6DBB8079273F78950060F24F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB8078273F78950060F24F /* ViewController.swift */; };
 		6DBB807C273F78950060F24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB807A273F78950060F24F /* Main.storyboard */; };
 		6DBB807E273F78970060F24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB807D273F78970060F24F /* Assets.xcassets */; };
-		6DBB8086273F78970060F24F /* DTMG Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6DBB8085273F78970060F24F /* DTMG Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6DBB8086273F78970060F24F /* TargetLinks Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6DBB8085273F78970060F24F /* TargetLinks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6DBB808B273F78970060F24F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB808A273F78970060F24F /* SafariWebExtensionHandler.swift */; };
 		6DBB808E273F78980060F24F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB808D273F78980060F24F /* _locales */; };
 		6DBB8090273F78980060F24F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB808F273F78980060F24F /* images */; };
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6DBB8086273F78970060F24F /* DTMG Extension.appex in Embed Foundation Extensions */,
+				6DBB8086273F78970060F24F /* TargetLinks Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6DBB8069273F78950060F24F /* DTMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBB8069273F78950060F24F /* TargetLinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetLinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBB806C273F78950060F24F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DBB8070273F78950060F24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		6DBB8072273F78950060F24F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -60,9 +60,9 @@
 		6DBB8078273F78950060F24F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DBB807B273F78950060F24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DBB807D273F78970060F24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6DBB807F273F78970060F24F /* DTMG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DTMG.entitlements; sourceTree = "<group>"; };
-		6DBB8080273F78970060F24F /* DTMG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DTMG.entitlements; sourceTree = "<group>"; };
-		6DBB8085273F78970060F24F /* DTMG Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DTMG Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBB807F273F78970060F24F /* TargetLinks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TargetLinks.entitlements; sourceTree = "<group>"; };
+		6DBB8080273F78970060F24F /* TargetLinks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TargetLinks.entitlements; sourceTree = "<group>"; };
+		6DBB8085273F78970060F24F /* TargetLinks Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TargetLinks Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBB808A273F78970060F24F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		6DBB808D273F78980060F24F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		6DBB808F273F78980060F24F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		6DBB8099273F78980060F24F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		6DBB809B273F78980060F24F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		6DBB809D273F78980060F24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DBB809E273F78980060F24F /* DTMG_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DTMG_Extension.entitlements; sourceTree = "<group>"; };
+		6DBB809E273F78980060F24F /* TargetLinks_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TargetLinks_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +96,8 @@
 		6DBB8060273F78950060F24F = {
 			isa = PBXGroup;
 			children = (
-				6DBB806B273F78950060F24F /* DTMG */,
-				6DBB8089273F78970060F24F /* DTMG Extension */,
+				6DBB806B273F78950060F24F /* TargetLinks */,
+				6DBB8089273F78970060F24F /* TargetLinks Extension */,
 				6DBB806A273F78950060F24F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +105,24 @@
 		6DBB806A273F78950060F24F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DBB8069273F78950060F24F /* DTMG.app */,
-				6DBB8085273F78970060F24F /* DTMG Extension.appex */,
+				6DBB8069273F78950060F24F /* TargetLinks.app */,
+				6DBB8085273F78970060F24F /* TargetLinks Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6DBB806B273F78950060F24F /* DTMG */ = {
+		6DBB806B273F78950060F24F /* TargetLinks */ = {
 			isa = PBXGroup;
 			children = (
 				6DBB806C273F78950060F24F /* AppDelegate.swift */,
 				6DBB8078273F78950060F24F /* ViewController.swift */,
 				6DBB807A273F78950060F24F /* Main.storyboard */,
 				6DBB807D273F78970060F24F /* Assets.xcassets */,
-				6DBB807F273F78970060F24F /* DTMG.entitlements */,
-				6DBB8080273F78970060F24F /* DTMG.entitlements */,
+				6DBB807F273F78970060F24F /* TargetLinks.entitlements */,
+				6DBB8080273F78970060F24F /* TargetLinks.entitlements */,
 				6DBB806E273F78950060F24F /* Resources */,
 			);
-			path = DTMG;
+			path = TargetLinks;
 			sourceTree = "<group>";
 		};
 		6DBB806E273F78950060F24F /* Resources */ = {
@@ -136,15 +136,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		6DBB8089273F78970060F24F /* DTMG Extension */ = {
+		6DBB8089273F78970060F24F /* TargetLinks Extension */ = {
 			isa = PBXGroup;
 			children = (
 				6DBB808A273F78970060F24F /* SafariWebExtensionHandler.swift */,
 				6DBB809D273F78980060F24F /* Info.plist */,
-				6DBB809E273F78980060F24F /* DTMG_Extension.entitlements */,
+				6DBB809E273F78980060F24F /* TargetLinks_Extension.entitlements */,
 				6DBB808C273F78980060F24F /* Resources */,
 			);
-			path = "DTMG Extension";
+			path = "TargetLinks Extension";
 			sourceTree = "<group>";
 		};
 		6DBB808C273F78980060F24F /* Resources */ = {
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DBB8068273F78950060F24F /* DTMG */ = {
+		6DBB8068273F78950060F24F /* TargetLinks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DBB80A5273F78980060F24F /* Build configuration list for PBXNativeTarget "DTMG" */;
+			buildConfigurationList = 6DBB80A5273F78980060F24F /* Build configuration list for PBXNativeTarget "TargetLinks" */;
 			buildPhases = (
 				6DBB8065273F78950060F24F /* Sources */,
 				6DBB8066273F78950060F24F /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				6DBB8088273F78970060F24F /* PBXTargetDependency */,
 			);
-			name = DTMG;
+			name = TargetLinks;
 			productName = DTMG;
-			productReference = 6DBB8069273F78950060F24F /* DTMG.app */;
+			productReference = 6DBB8069273F78950060F24F /* TargetLinks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DBB8084273F78970060F24F /* DTMG Extension */ = {
+		6DBB8084273F78970060F24F /* TargetLinks Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DBB80A1273F78980060F24F /* Build configuration list for PBXNativeTarget "DTMG Extension" */;
+			buildConfigurationList = 6DBB80A1273F78980060F24F /* Build configuration list for PBXNativeTarget "TargetLinks Extension" */;
 			buildPhases = (
 				6DBB8081273F78970060F24F /* Sources */,
 				6DBB8082273F78970060F24F /* Frameworks */,
@@ -195,9 +195,9 @@
 			);
 			dependencies = (
 			);
-			name = "DTMG Extension";
+			name = "TargetLinks Extension";
 			productName = "DTMG Extension";
-			productReference = 6DBB8085273F78970060F24F /* DTMG Extension.appex */;
+			productReference = 6DBB8085273F78970060F24F /* TargetLinks Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DBB8064273F78950060F24F /* Build configuration list for PBXProject "DTMG" */;
+			buildConfigurationList = 6DBB8064273F78950060F24F /* Build configuration list for PBXProject "TargetLinks" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,8 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DBB8068273F78950060F24F /* DTMG */,
-				6DBB8084273F78970060F24F /* DTMG Extension */,
+				6DBB8068273F78950060F24F /* TargetLinks */,
+				6DBB8084273F78970060F24F /* TargetLinks Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +290,7 @@
 /* Begin PBXTargetDependency section */
 		6DBB8088273F78970060F24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DBB8084273F78970060F24F /* DTMG Extension */;
+			target = 6DBB8084273F78970060F24F /* TargetLinks Extension */;
 			targetProxy = 6DBB8087273F78970060F24F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -370,6 +370,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,6 +429,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -439,15 +441,15 @@
 		6DBB80A2273F78980060F24F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "DTMG Extension/DTMG_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TargetLinks Extension/TargetLinks_Extension.entitlements";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10514;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DTMG Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = DTMG;
+				INFOPLIST_FILE = "TargetLinks Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TargetLinks;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,7 +457,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -472,17 +474,17 @@
 		6DBB80A3273F78980060F24F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "DTMG Extension/DTMG_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "TargetLinks Extension/TargetLinks_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10514;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 97H8NCGW2N;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = 97H8NCGW2N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DTMG Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = DTMG;
+				INFOPLIST_FILE = "TargetLinks Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TargetLinks;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +492,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -511,7 +513,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DTMG/DTMG.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TargetLinks/TargetLinks.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -551,7 +553,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DTMG/DTMG.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TargetLinks/TargetLinks.entitlements;
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -590,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DBB8064273F78950060F24F /* Build configuration list for PBXProject "DTMG" */ = {
+		6DBB8064273F78950060F24F /* Build configuration list for PBXProject "TargetLinks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DBB809F273F78980060F24F /* Debug */,
@@ -599,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DBB80A1273F78980060F24F /* Build configuration list for PBXNativeTarget "DTMG Extension" */ = {
+		6DBB80A1273F78980060F24F /* Build configuration list for PBXNativeTarget "TargetLinks Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DBB80A2273F78980060F24F /* Debug */,
@@ -608,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DBB80A5273F78980060F24F /* Build configuration list for PBXNativeTarget "DTMG" */ = {
+		6DBB80A5273F78980060F24F /* Build configuration list for PBXNativeTarget "TargetLinks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DBB80A6273F78980060F24F /* Debug */,
