@@ -1,6 +1,6 @@
 //
 //  SafariWebExtensionHandler.swift
-//  DTMG Extension
+//  TargetLinks Extension
 //
 //  Created by Bin Hua on 2021/11/13.
 //

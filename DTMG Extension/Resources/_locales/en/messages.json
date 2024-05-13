@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "DTMG Extension",
+        "message": "TargetLinks Extension",
         "description": "Access target links on Google search result page directly"
     },
     "extension_description": {
-        "message": "This is DTMG Extension. It helps uses to access Google search results links directly",
+        "message": "This is TargetLinks Extension. It helps uses to access Google search results links directly",
         "description": "Access target links on Google search result page directly"
     }
 }

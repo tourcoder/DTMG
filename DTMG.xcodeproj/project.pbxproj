@@ -15,7 +15,7 @@
 		6DBB8079273F78950060F24F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB8078273F78950060F24F /* ViewController.swift */; };
 		6DBB807C273F78950060F24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB807A273F78950060F24F /* Main.storyboard */; };
 		6DBB807E273F78970060F24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB807D273F78970060F24F /* Assets.xcassets */; };
-		6DBB8086273F78970060F24F /* DTMG Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6DBB8085273F78970060F24F /* DTMG Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6DBB8086273F78970060F24F /* DTMG Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6DBB8085273F78970060F24F /* DTMG Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6DBB808B273F78970060F24F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB808A273F78970060F24F /* SafariWebExtensionHandler.swift */; };
 		6DBB808E273F78980060F24F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB808D273F78980060F24F /* _locales */; };
 		6DBB8090273F78980060F24F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB808F273F78980060F24F /* images */; };
@@ -37,15 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6DBB80A4273F78980060F24F /* Embed App Extensions */ = {
+		6DBB80A4273F78980060F24F /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6DBB8086273F78970060F24F /* DTMG Extension.appex in Embed App Extensions */,
+				6DBB8086273F78970060F24F /* DTMG Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -171,7 +171,7 @@
 				6DBB8065273F78950060F24F /* Sources */,
 				6DBB8066273F78950060F24F /* Frameworks */,
 				6DBB8067273F78950060F24F /* Resources */,
-				6DBB80A4273F78980060F24F /* Embed App Extensions */,
+				6DBB80A4273F78980060F24F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -208,7 +208,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					6DBB8068273F78950060F24F = {
 						CreatedOnToolsVersion = 13.1;
@@ -319,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -349,9 +350,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -380,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -410,9 +414,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -436,6 +442,7 @@
 				CODE_SIGN_ENTITLEMENTS = "DTMG Extension/DTMG_Extension.entitlements";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -447,7 +454,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -469,6 +476,7 @@
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 97H8NCGW2N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -480,7 +488,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -505,11 +513,12 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10514;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = DTMG;
+				INFOPLIST_KEY_CFBundleDisplayName = TargetLinks;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -518,8 +527,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -544,11 +553,12 @@
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 10514;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 97H8NCGW2N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = DTMG;
+				INFOPLIST_KEY_CFBundleDisplayName = TargetLinks;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -557,8 +567,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,

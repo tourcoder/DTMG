@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "default_locale": "en",
 
-    "name": "DTMG",
+    "name": "TargetLinks",
     "description": "Access target links on Google search result page directly",
     "version": "1.1",
 
